@@ -1,0 +1,63 @@
+   #===========================================================================================#
+   |                       Algoritmos e Estruturas de Dados III - TP3    
+   |                                                
+   |                                          
+   |										  Algoritmo para detectar plágio em letras musicais 
+   |                                          	      
+   #============================================================================================#
+    
+   Autores:
+	Isabella Vieira Ferreira
+	Mônica Neli de Resende   
+
+
+   #=============================================================================================#
+   |                                     Organização desse documento                            
+   #=============================================================================================#
+   |                                                                                                                     
+   |    1. Introdução                                         				   
+   |    2. Procedimento de execução             
+   | 
+   #=============================================================================================#
+
+
+   #=============================================================================================#
+   |   1.Introdução                                                                                           
+   #=============================================================================================#
+   |    	
+   |  	Este programa foi escrito em liguagem C, e tem como principal objetivo detectar plágio em
+   |  letras musicais
+   |
+   |	O código foi desenvolvido no Sistema Operacional Linux - Ubuntu 12.04 32 bits. 
+   | 
+   |      
+   |                                                                                                      
+   #=============================================================================================#
+ 
+   #==============================================================================================#
+   |   2.Procedimento de execução                            
+   #==============================================================================================#
+   |                                                             
+   |      
+   |	Para juntar os módulos do projeto e compilá-los foi desenvolvido um Makefile.
+   |
+   |	Para compilar o trabalho é preciso entrar na pasta e digitar o seguinte comando no terminal: 
+   |										make
+   |	
+   | 	Após a compilação, para executar o programa é preciso digitar no terminal: 
+   |
+   |	./tp3 <nome-do-arquivo-de-entrada> <metodo-de-casamento-de-strings>    
+   |	
+   |	Sendo:
+   |	- <nome-do-arquivo-de-entrada> é o nome do arquivo de entrada;
+   |    - <metodo-de-casamento-de-strings>  é qual método o usuário deseja utilizar para fazer o 
+   |	processamento de cadeias de caracteres, sendo:
+   |
+   |    	1. Força Bruta
+   |		2. Knuth-Morris-Pratt (KMP);
+   |		3. Boyer-Moore-Horspool (BMH);
+   |		4. ShiftAndExato.
+   |
+   |	Para fazer uma limpeza do projeto compilado digite: make clean
+   |
+   #=============================================================================================#
